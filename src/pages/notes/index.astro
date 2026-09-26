@@ -1,0 +1,20 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { byUpdated, getNotes } from '../../lib/notes';
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const notes = (await getNotes()).sort(byUpdated);
+---
+<BaseLayout title="記事一覧">
+  <h1>記事一覧</h1>
+  <p class="muted">{notes.length} 件の記事</p>
+  <ul class="note-list">
+    {notes.map((note) => (
+      <li>
+        <a href={`${base}/${note.slug}/`}>{note.title}</a>
+        {note.updated && <time datetime={note.updated.toISOString()}>{note.updated.toISOString().slice(0, 10)}</time>}
+      </li>
+    ))}
+  </ul>
+  {notes.length === 0 && <p class="muted">記事はまだありません。</p>}
+</BaseLayout>
