@@ -1,6 +1,6 @@
 # Brewnotes
 
-ビールと醸造に関する記事や醸造記録を公開するサイト。公開先は `https://ydah.github.io/brewnotes/`。
+ビールと醸造に関する知識や情報をまとめるサイト。公開先は `https://ydah.github.io/brewnotes/`。
 
 ## 開発
 
@@ -27,7 +27,7 @@ npm run build
 - `draft: true` を frontmatter に書くと、本番ビルドから除外される。
 - `created` / `updated` はコミット時のフックが補完・更新する。
 
-記事の書き方と醸造記録の方針は [CLAUDE.md](CLAUDE.md) を参照。
+記事の書き方は [CLAUDE.md](CLAUDE.md) を参照。
 
 ## 公開
 

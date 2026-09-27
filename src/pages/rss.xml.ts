@@ -10,7 +10,7 @@ export const GET: APIRoute = async ({ site }) => {
 
   return rss({
     title: 'Brewnotes',
-    description: 'ビールと醸造についての記録と記事',
+    description: 'ビールと醸造に関する知識や情報',
     site: siteUrl,
     items: notes.map((note) => ({
       title: note.title,
