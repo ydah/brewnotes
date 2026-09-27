@@ -21,6 +21,12 @@ updated: 2026-09-27
 通常の醸造酵母ではこの働きが弱い場合があり、酵母の株によって放出量が変わる。
 [Omega Yeastの解説](https://omegayeast.com/blogs/brewing-guides/how-to-thiol)によると、同社のCosmic Punchは酵母由来のIRC7遺伝子の働きを高め、前駆体から3SHを放出するよう設計されている。
 [Scott Janishの解説](https://scottjanish.com/genetically-modified-gm-yeast-strains-unlocking-bound-hop-thiols-and-engineering-targeted-fermentation-characteristics/)は、こうした酵母改変がホップ香気に与える可能性を整理している。
+[Berkeley Yeastの現在の説明](https://berkeleyyeast.com/blogs/resources/how-we-made-a-better-thiol-enzyme-with-protein-engineering)では、同社のTropicsは基質を選びやすく改変した炭素–硫黄リアーゼを利用する。
+2021年の解説に出てくる酵素の候補を、現在販売されている株の仕様と同一視しないようにしたい。
+
+遊離した3SHの一部は、酵母のアルコールアセチルトランスフェラーゼAtf1pの働きで3SHAに変わる。
+[ワイン酵母を用いた研究](https://doi.org/10.1016/S0167-4501(06)80027-0)では、ATF1遺伝子を強く働かせると3SHAが増え、ATF1を欠いても生成が完全には止まらなかった。
+前駆体から3SHを放出する反応と、3SHを3SHAに変える反応は別であり、両方の能力が香りの内訳に関わる。
 
 「システイン結合型だけが酵母によって直接放出される」と決めつけることはできない。
 [2025年の研究](https://pubmed.ncbi.nlm.nih.gov/39860195/)では、試験した一部のラガー酵母が、γ-グルタミルシステイン結合型の3SH前駆体からもチオールを放出した。
@@ -38,3 +44,4 @@ updated: 2026-09-27
 原料の投入量を増やす前に、使う酵母が何を放出できるか、ホップ自体がどんな香味を加えるかを確認したい。
 
 遊離したチオールの量と、実際に感じる香りの関係は[[thiol-aroma-interactions|チオールとホップ香気の相互作用]]で扱う。
+配糖体の香気変換に関わる別の酵素は[[hop-glycosides-and-wild-yeast|ホップ配糖体と野生酵母]]で扱う。
