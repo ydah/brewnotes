@@ -21,6 +21,8 @@ updated: 2026-09-27
 通常の醸造酵母ではこの働きが弱い場合があり、酵母の株によって放出量が変わる。
 [Omega Yeastの解説](https://omegayeast.com/blogs/brewing-guides/how-to-thiol)によると、同社のCosmic Punchは酵母由来のIRC7遺伝子の働きを高め、前駆体から3SHを放出するよう設計されている。
 [Scott Janishの解説](https://scottjanish.com/genetically-modified-gm-yeast-strains-unlocking-bound-hop-thiols-and-engineering-targeted-fermentation-characteristics/)は、こうした酵母改変がホップ香気に与える可能性を整理している。
+同記事で紹介されたBerkeleyの初期試作では、細菌由来TnaAの働きがトリプトファンからインドールも増やし、望まない臭いを生じた。
+β-リアーゼ活性だけを高めれば常に良い香りになるわけではなく、酵素の副反応と酵母全体の香気を調べる必要がある。
 [Berkeley Yeastの現在の説明](https://berkeleyyeast.com/blogs/resources/how-we-made-a-better-thiol-enzyme-with-protein-engineering)では、同社のTropicsは基質を選びやすく改変した炭素–硫黄リアーゼを利用する。
 2021年の解説に出てくる酵素の候補を、現在販売されている株の仕様と同一視しないようにしたい。
 
@@ -36,9 +38,25 @@ updated: 2026-09-27
 
 前駆体は麦芽やホップに由来し、ブドウ由来の製品Phantasmから加える方法もある。
 [Janishの「The Locksmith」](https://scottjanish.com/the-locksmith-utilizing-bioengineered-yeast-and-high-bound-thiol-precersour-hops-and-phantasm-powder-to-thiol-drive-beer/)では、Phantasmとチオール放出型酵母を組み合わせ、発酵後の香りの変化を報告している。
-ただし、その比較には発酵容器の規模などにも違いがあり、Phantasmだけの効果を切り分けた実験ではない。
+Phantasmはソーヴィニヨン・ブランのブドウ果皮を加工した製品で、香りのないチオール前駆体を供給する狙いがある。
+OmegaがJanishに提供したホップなし麦汁の試験値では、Cosmic Punchによる遊離3SHは546 ng/L、親株では11 ng/Lだった。
+記事が示す3SHの検知閾値60 ng/Lと比べると、前者はその約9倍に当たる。
+この比較は麦芽だけでも前駆体があることを示すが、すべての麦芽や仕込みで同じ値になるわけではない。
+Omegaの小規模試験では、Phantasmを加えた4回の発酵で、無添加に比べ遊離3SHが平均441 ng/L増えたと報告された。
+製品ロットによって前駆体量が異なり、この増加を市販のビールでの保証値とは扱えない。
 
+## The Locksmithでの投入と結果
+
+Janishの共同醸造では、Cascade約8 g/Lを糖化槽に、Phantasm約8 g/Lを82℃のワールプールに入れ、Cosmic Punchで発酵させた。
+初期比重は1.083、最終比重は1.020で、発酵後にMosaic Cryoを約8 g/Lドライホップしている。
+Phantasm前に分けた約17米ガロンの小槽と、Phantasmを入れた約10米国ビールバレルの大槽を、ドライホップ前に試飲した。
+大槽では白ワインや白いグレープフルーツの印象が強く、小槽は比較的中性的だったという。
+ただし、容量と発酵槽も違うため、両者の差をPhantasmだけの効果とは確定できない。
+同じ大槽でドライホップ前後を分析すると、遊離チオール、とくに3SHAは後に減ったと報告している。
+植物体への吸着、酸化、ほかの香りによるマスキングのどれが主因かは、この測定だけでは分からない。
 糖化中にホップを加える「マッシュホッピング」も前駆体の供給法として提案されてきた。
+Omegaの試験ではChinook約7 g/Lを糖化槽に入れた場合、無ホップ対照より遊離3SHが約20%多く、同量をワールプールに入れた場合は対照より約40%少なかった。
+Janishは糖化中に大きい前駆体が酵母の使いやすい形へ変わる可能性を挙げるが、この比較だけで反応経路は確定できない。
 一方、[Berkeley Yeastの現行ガイド](https://berkeleyyeast.com/pages/thiols_in_beer)は、同社のチオール放出型酵母では麦芽由来の前駆体だけでも十分な場合があり、マッシュホッピングによる望ましくない香味もあり得ると説明する。
 必要な前駆体の量は酵母と狙う香味によって変わる。
 原料の投入量を増やす前に、使う酵母が何を放出できるか、ホップ自体がどんな香味を加えるかを確認したい。
